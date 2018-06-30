@@ -72,6 +72,7 @@ h4{
  }
  .pink{
  	font-size:100px;
+  color:white;
  }
  .ugly{
   border-image: 25%
@@ -142,7 +143,7 @@ footer {
 .green{
   font-style: italic;
 }
-```}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -263,10 +264,7 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
-}```
-Message Input
-
-Message @Rodney Almaguer
+}
 
 
 
