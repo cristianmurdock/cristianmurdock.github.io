@@ -1,23 +1,39 @@
 body {
-    background-image: url("light.jpg");
+    background-image: url("https://i.imgur.com/7LlVJVE.jpg");
     background-size: contain;
     background-attachment: fixed;
     background-repeat: repeat;
-}
-.topnav a {
-    color: black;
+    filter: drop-shadow (100%);
 
+
+
+}
+  .blocks{ font-size: 200px;
+          float: top;
+         object-position: inline-block; 
+
+}
+.green{
+
+}
 
     
-    font-weight: 600;
+    
 }
 .topnav a:hover {
-    text-decoration:none;
-    background-color: blue;
+    
+    background-color: none; /* Green */
+    border: none;
+    color: none;
+    padding: 50px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px 50px;
 }
  
 h1{
-	color: red;
+	color: white;
     text-align: center;
 }
 p{
@@ -26,7 +42,8 @@ p{
 }
 h2{
 	color: purple;
-	text-align: center;}
+	text-align: center;
+  position: block}
 
 h3{
 	color: purple;
@@ -39,24 +56,33 @@ h4{
 }
 
 .purple{
-    color: blue!important;
+    color: pink
+  !important;
+  font-weight: bold;
     font-size:45px;
 
        }
 
  .highlight{
- 	background-color: white;
- 	color: black!important;
+ 	background-color: #4CAF50;
+ 	color: red!important;
  	font-size:60px;
   float: left;
-  
+  border-radius: 20px;
+
+
  }     
-    
- .helvetica{
- 	font-family:helvetica;
-	font-size:300%;
-	font-style:italic;
+ .futon{
+
+  background: purple;
+  color: red!important;
+  font-size:60px;
+  float: right;
+  border-radius: 20px;
+
  }
+    
+
 
  .class{
  	font-size:300%;
@@ -73,15 +99,16 @@ h4{
  }
  .pink{
  	font-size:100px;
-  color:white;
  }
  .ugly{
   border-image: 25%
  }
  .pinky{
-  float: left;
+  float: auto 0;
+
  }
- .att{color: white;}
+ .att{color: blue;
+ }
  
  .portfolio_image{
   width: 50%;
@@ -98,22 +125,27 @@ h4{
 
 
 }
-.sub{
-  float: top;
-  color: white;
-}
+
 .small{
-  width: auto 50%;
+ background position: fixed;
+  bottom: auto 0;
+  right: auto 0;
+  width: auto 0:
+  border: 3px solid red;
+
+
+}
+footer{
+  clear: both;
+  margin: auto 0;
+  text-align: center;
+
+
 }
 
-header {
 
-}
 
-footer {
-    border-top: 1px solid black;
-    margin-top: 40px;
-}
+
 .gallery{
   margin: 10px 50px;
 
@@ -137,12 +169,17 @@ footer {
 }
 .nme{
 
-  font-size: 24px;
-  text-decoration: 0;
+  font-size: 30px;
+  float: bottom;
+  background-color: red;
+  border-radius: 10px
+
 
 }
-.green{
-  font-style: italic;
+
+  
+
+ 
 }
 
 ul {
@@ -150,7 +187,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    display: inline-block;
 }
 
 li {
@@ -164,6 +201,8 @@ li a {
     padding: 14px 16px;
     /*text-decoration: none;*/
 }
+
+  
 
 li a:hover {
     background-color: #111;
@@ -218,7 +257,9 @@ img {vertical-align: middle;}
   width: 100%;
   text-align: center;
 }
-
+.ADAM{
+  color: blue
+}
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
@@ -266,6 +307,7 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
 
 
 
