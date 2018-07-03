@@ -8,12 +8,19 @@ body {
 
 
 }
-  .blocks{ font-size: 200px;
+  .blocks{ font-size: 50%;
           float: top;
-         object-position: inline-block; 
+         object-position: inline-block;
+         margin: auto 0;
+         padding-bottom: 10%;
+         padding-left: 50%; 
+
+
 
 }
-.green{
+.bkb{
+  margin: auto 0;
+  border width: 100%;
 
 }
 
@@ -68,9 +75,14 @@ h4{
  .highlight{
  	background-color: #4CAF50;
  	color: red!important;
- 	font-size:60px;
+ 	font-size:200px;
   float: left;
   border-radius: 20px;
+  margin: auto 0;
+  position: block;
+  list-style-position: inside;
+
+
 
 
  }     
