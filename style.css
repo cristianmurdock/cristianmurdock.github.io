@@ -54,19 +54,24 @@ h1{
 }
 
 h2{
-	color: purple;
+	color: orange;
 	text-align: center;
-  position: block}
+  position: block;
+  font-size: 44px}
+
 
 h3{
 	color: white;
-	text-align: center
+	text-align: center;
+  font-size: 54px;
+  font-family: 'Shrikhand', cursive;
 }
 
 h4{
 	color: purple;
 	text-align: center;
 }
+
 
 .purple{
     color: pink
