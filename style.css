@@ -35,6 +35,8 @@ body {
 h1{
 	color: white;
     text-align: center;
+    font-size: 35px;
+
 }
 p{
   color: green;
@@ -77,8 +79,11 @@ h4{
   background: purple;
   color: red!important;
   font-size:60px;
-  float: right;
+  float: top right;
   border-radius: 20px;
+  text-decoration: none;
+
+
 
  }
     
