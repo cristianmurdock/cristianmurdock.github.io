@@ -18,6 +18,12 @@ body {
 
 
 }
+header{
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  font-family: 'Shrikhand', cursive;
+}
 .bkb{
   margin: auto 0;
   border width: 100%;
@@ -42,20 +48,18 @@ body {
 h1{
 	color: white;
     text-align: center;
-    font-size: 35px;
+    font-size: 65px;
+    font-family: 'Shrikhand', cursive;
 
 }
-p{
-  color: green;
-  text-align: center;
-}
+
 h2{
 	color: purple;
 	text-align: center;
   position: block}
 
 h3{
-	color: purple;
+	color: white;
 	text-align: center
 }
 
@@ -71,18 +75,18 @@ h4{
     font-size:45px;
 
        }
+.hme{
+  text-decoration: none;
+}
 
  .highlight{
- 	background-color: #4CAF50;
- 	color: red!important;
- 	font-size:200px;
-  float: left;
-  border-radius: 20px;
-  margin: auto 0;
-  position: block;
-  list-style-position: inside;
-
-
+ 	background-color: none!important;
+  text-decoration: none;
+ 	color: white!important;
+ 	font-size:50px;
+  float: center;
+  font-family: 'Shrikhand', cursive;
+  text-align: auto 0;
 
 
  }     
@@ -94,6 +98,7 @@ h4{
   float: top right;
   border-radius: 20px;
   text-decoration: none;
+  font-family: 'Shrikhand', cursive;
 
 
 
@@ -103,6 +108,13 @@ h4{
 
  .class{
  	font-size:300%;
+
+ }
+ .rad{
+  font-size: 24px;
+  text-align: center;
+  margin: auto 0;
+  font-family: 'Shrikhand', cursive;
 
  }
  .src{border-width: 50%}
@@ -115,7 +127,10 @@ h4{
 
  }
  .pink{
- 	font-size:100px;
+ 	font-size:80px;
+  font-family: 'Shrikhand', cursive;
+
+
  }
  .ugly{
   border-image: 25%
@@ -125,6 +140,10 @@ h4{
 
  }
  .att{color: blue;
+      
+ }
+ p{  text-decoration: none!important;
+
  }
  
  .portfolio_image{
@@ -324,6 +343,8 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+
 
 
 
